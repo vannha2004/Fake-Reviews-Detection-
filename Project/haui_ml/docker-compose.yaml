@@ -1,0 +1,23 @@
+version: '3.7'
+
+volumes:
+  pgdata:
+
+networks:
+  app-tier:
+    driver: bridge
+
+services:
+  src:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8501:8501"
+    networks:
+      - app-tier
+    volumes:
+      - type: bind
+        source: ./src
+        target: /app
+    command: ["streamlit", "run", "app.py"]
