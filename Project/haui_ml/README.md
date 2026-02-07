@@ -2,14 +2,40 @@
 
 A comprehensive machine learning application for detecting fake reviews using multiple algorithms and a user-friendly Streamlit interface.
 
+
 ## 📋 Table of Contents
 - [Features](#-features)
 - [Project Structure](#-project-structure)
+- [Images](#-images)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Model Information](#-model-information)
 - [API Documentation](#-api-documentation)
 - [Contributing](#-contributing)
+
+## 🖼️ Images
+
+Below are some key diagrams and screenshots illustrating the system:
+
+<div align="center">
+    <img src="../../images/pipeline_overall.png" alt="System Pipeline Overview" width="600"/>
+    <br><b>Figure 1:</b> System Pipeline Overview
+</div>
+
+<div align="center">
+    <img src="../../images/sys_backend.png" alt="Backend Architecture" width="500"/>
+    <br><b>Figure 2:</b> Backend Architecture
+</div>
+
+<div align="center">
+    <img src="../../images/sys_frontend.png" alt="Frontend UI" width="500"/>
+    <br><b>Figure 3:</b> Frontend UI
+</div>
+
+<div align="center">
+    <img src="../../images/compared_ressults.png" alt="Model Results Comparison" width="600"/>
+    <br><b>Figure 4:</b> Model Results Comparison
+</div>
 
 ## 🌟 Features
 
